@@ -1,5 +1,4 @@
 # Data-driven internal mobility: Similarity regularization gets the job done </br><sub><sub>Simon De Vos, Johannes Desmedt, Marijke Verbruggen, Wouter Verbeke [[2024]](https://doi.org/10.1016/j.knosys.2024.111824)</sub></sub>
-This paper presents a novel approach to support career management by recommending job–employee matches within an organization through data-driven insights. We build a recommender system to propose matches. The presented approach extends upon a conventional collaborative filtering recommender system, which suggests matches based on the historic performance similarities of employees. To address the prevalent challenge of the cold start issue in internal placement, we incorporate personal employee data with a similarity-based regularization term. This regularization term finds latent representations that are closer to each other when employees share similar personal features. This approach is evaluated using three real-life datasets and demonstrates a highly competitive performance compared to state-of-the-art benchmark methods. Overall, we make three contributions to the field of HR analytics: (i) we present a comprehensive survey of job–employee recommender systems in the context of internal mobility, (ii) we implement a similarity regularization method, and (iii) we release a first-of-its-kind HR dataset on internal mobility. 
 
 ## Instructions:
 To replicate the results as reported in the paper, exectute the notebook *'main.ipynb'*
@@ -43,6 +42,4 @@ RecSys_SR/
 ## Citing
 Please cite our paper and/or code as follows:
 
-```bash
 De Vos, S., De Smedt, J., Verbruggen, M., & Verbeke, W. (2024). Data-driven internal mobility: Similarity regularization gets the job done. Knowledge-Based Systems, 111824.
-```
